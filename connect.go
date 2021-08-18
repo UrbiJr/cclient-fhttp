@@ -26,7 +26,8 @@ import (
 	"net/url"
 	"sync"
 
-	http "github.com/useflyent/fhttp"
+	"net/http"
+
 	"golang.org/x/net/proxy"
 
 	http2 "github.com/useflyent/fhttp/http2"
