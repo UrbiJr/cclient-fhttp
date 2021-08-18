@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"net/http"
+	http "github.com/useflyent/fhttp"
 
 	http2 "github.com/useflyent/fhttp/http2"
 	"golang.org/x/net/proxy"

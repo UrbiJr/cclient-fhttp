@@ -1,9 +1,9 @@
 package cclient
 
 import (
-	"net/http/cookiejar"
+	"github.com/useflyent/fhttp/cookiejar"
 
-	"net/http"
+	http "github.com/useflyent/fhttp"
 
 	"golang.org/x/net/proxy"
 
